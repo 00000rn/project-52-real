@@ -1,0 +1,74 @@
+
+body{
+    margin: 0px;
+}
+
+.header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto; 
+ }
+
+h1{
+ color: blueviolet;
+ text-align: center;
+ font-size: 3rem;
+ background-color: aqua;
+}
+
+.grid {
+display: flex;
+flex-wrap: wrap;
+margin: 5px;
+}
+
+.grid img{
+border: 5px solid black;
+border-radius: 50px;
+}
+
+.orabox {
+    border-radius: 50px ;
+    background-color: white;
+    width: 310px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.orabox:hover {
+
+transform: scale(1.1);
+box-shadow: 5px;
+
+}
+
+a:link{
+
+color: blue;
+
+}
+
+a:visited{
+
+color: darkmagenta;
+
+}
+
+.orabox {
+    position: relative;
+}
+
+.orabox p{
+color: black;
+font-size: 11px;
+font-family: fantasy;
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
